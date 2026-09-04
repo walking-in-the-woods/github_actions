@@ -42,5 +42,10 @@ export const App = () => {
 				/>
 			</Routes>
 		</div>
+		<button
+			className={styles.link}
+			onClick={() => (window as any).ym(112285605, 'reachGoal', 'buy')}>
+			Купить
+		</button>
 	);
 };
