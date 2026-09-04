@@ -9,9 +9,10 @@ const domNode = document.getElementById('root') as HTMLDivElement;
 const root = createRoot(domNode);
 root.render(
 	<StrictMode>
+		{/* Передадим ID потока в поле googleId */}
 		<Analytic.Provider value={{ yandexId: 112285605, googleId: 'G-73581CM149' }}>
-			<BrowserRouter
-				basename={process.env.PUBLIC_PATH ? process.env.PUBLIC_PATH : '/'}>
+			<BrowserRouter>
+				{/* basename={process.env.PUBLIC_PATH ? process.env.PUBLIC_PATH : '/'}> */}
 				<App />
 			</BrowserRouter>
 		</Analytic.Provider>
