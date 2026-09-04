@@ -24,7 +24,7 @@ export const App = () => {
 				</Link>
 				<button
 					className={styles.link}
-					onClick={() => (window as any).ym(112285605, 'reachGoal', 'buy')}>
+					onClick={() => (window as any).ym(608787683, 'reachGoal', 'buy')}>
 					Купить
 				</button>
 			</div>
